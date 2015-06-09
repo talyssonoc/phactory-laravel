@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
 use Phactory\Sql\Phactory;
 
-class PhactoryProvider extends ServiceProvider {
+class PhactoryServiceProvider extends ServiceProvider {
 	public function boot() {
 		$factoriesPath = app_path() . '/Factories';
 
