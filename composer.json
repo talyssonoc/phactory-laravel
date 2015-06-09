@@ -1,0 +1,24 @@
+{
+    "name": "talyssonoc/phactory-laravel",
+    "description": "Use Phactory inside Laravel",
+    "keywords": ["phactory", "laravel", "factory", "tests"],
+    "require": {
+        "chriskite/phactory": "^0.4.3",
+        "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+      "classmap": [
+        "facades/"
+      ],
+      "psr-4": {
+        "PhactoryLaravel\\": "lib/"
+      }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "talyssonoc",
+            "email": "talyssonoc@gmail.com"
+        }
+    ]
+}
