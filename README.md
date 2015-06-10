@@ -8,7 +8,7 @@ If you don't know what `Phactory` is:
 
 `Phactory Laravel` will access the database based on your `Laravel` config, simple as that.
 
-Be aware that you must [specify a tasting database](https://laracasts.com/discuss/channels/testing/how-to-specify-a-testing-database-in-laravel-5), otherwise `Phactory Laravel` will insert data in your development database.
+Be aware that you must [specify a testing database](https://laracasts.com/discuss/channels/testing/how-to-specify-a-testing-database-in-laravel-5), otherwise `Phactory Laravel` will insert data in your development database.
 
 ## Installation
 
