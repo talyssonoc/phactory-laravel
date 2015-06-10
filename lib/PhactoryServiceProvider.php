@@ -4,7 +4,7 @@ namespace PhactoryLaravel;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
-use Phactory\Sql\Phactory;
+use Phactory\Sql\Phactory as PhactoryClass;
 
 class PhactoryServiceProvider extends ServiceProvider {
 	public function boot() {
@@ -17,7 +17,7 @@ class PhactoryServiceProvider extends ServiceProvider {
 
 	public function register() {
 		$this->app->bind('Phactory', function() {
-			return new Phactory(DB::connection()->getPdo());
+			return new PhactoryClass(DB::connection()->getPdo());
 		});
 	}
 }
